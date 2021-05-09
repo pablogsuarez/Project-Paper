@@ -1,0 +1,90 @@
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+button a {
+    /* position: absolute;
+    right: 10px;
+    top: 10px; */
+    background-image: none;
+    border-bottom-style: none;
+}
+
+button a:hover {
+    /* position: absolute;
+    right: 10px;
+    top: 10px; */
+    /* size: 0.5em; */
+    background-image: none;
+    border-bottom-style: none;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+nav {
+    padding: 0.2rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    width: 80%;
+    /* background-color: red; */
+    border: 2px solid #41403e;
+    padding: 10px;
+
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-bottom: 0px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid #41403e;
+    width: 100%;
+}
+
+.contact__footer {
+    position: relative;
+    bottom: 0;
+}
+
+.footer__dark {
+    border-top: 2px solid #ffffff;
+}
+
+footer p {
+    margin: 10px;
+
+}
+
+@media (min-width: 360px) {
+    li a {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es" class='dark'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/paper.css">
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.8.2/dist/paper.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Project Paper</title>
+    <style>
+        body {
+            background-color: #41403e;
+        }
+    </style>
+</head>
+
+<body class="dark">
+    <header>
+
+        <nav class="border fixed split-nav">
+            <div class="nav-brand">
+                <h3><a href="#">Project Paper</a></h3>
+            </div>
+            <div class="collapsible">
+                <input id="collapsible1" type="checkbox" name="collapsible1">
+                <label for="collapsible1">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </label>
+                <div class="collapsible-body">
+                    <ul class="inline">
+                        <li><a href="./index-dark.html">Inicio</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Github</a></li>
+                        <button><a class="lm" href="./index-dark.html"><i class="fas fa-moon"></i></a></button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h2>Contactame!</h2>
+
+    <form class="container form-group" action="POST" action="#" autocomplete="off">
+        <label for="name">Nombre *</label>
+        <input type="text" name="name" placeholder="Nombre" id="name" required maxlength="20">
+        <label for="surname">Apellido *</label>
+        <input type="text" name="name" placeholder="Apellido" id="name" required maxlength="20">
+        <label for="email">Email *</label>
+        <input type="email" name="email" placeholder="ejemplo@correo.com" id="email" required maxlength="30">
+
+        <label for="no-resize">Mensaje</label>
+        <textarea class="no-resize" maxlength="200" id="no-resize" rows="4" placeholder="Dejá tu mensaje..."
+            required></textarea>
+
+        <button class="btn-block">Enviar</button>
+
+    </form>
+
+    <footer class="contact__footer footer__dark">
+        <p><b>Copyright © 2021 Pablo Suárez</b></p>
+    </footer>
+</body>
+
+</html>
